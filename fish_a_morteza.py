@@ -757,14 +757,7 @@ def menu(x):
 def cat_script():
     time.sleep(600)
     newframe(1)
-    
 
-cat_thread = threading.Thread(daemon=True, target= sidequest("cat"), args= )
-
-def sidequest(var):
-    match var:
-        case "cat":
-            
 
 equi_thread = threading.Thread(daemon=True, target=equipment_check)
 
