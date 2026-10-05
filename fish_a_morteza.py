@@ -120,7 +120,7 @@ def load(x):
     global sal, boot, shr, meg, sea, blu, squ, col, sha, mrc, cod, mor, salmons, old_boots, shrimps, megalodons, sea_dragons, blue_whales, squids, collossal_squid, sharks, mr_crabs, cods, mortezas, multiplier, quantity, diffquantity, money, megaharpoonused, harpoonused, dragonbaitused, goodrodused, goodrod, dragonbait, harpoon, megaharpoon, wha, shi, yac, big, nor, old, wh, sh, ya, bi, no, ol, whaling_ships, ships, yachts, big_boats, normal_boats, old_boats, k, j, i, h, g, f, e, d, c, b, a, rng_range, equicheck
     match x:
         case "1":
-            with open("game_memory/user1_morteza_fishing.txt", "r") as user_one:
+            with open("game_memory.zip/user1_morteza_fishing.txt", "r") as user_one:
                 line = user_one.read().splitlines()
 
                 sal = float(line[0])
@@ -192,7 +192,7 @@ def load(x):
                 equicheck = line[66].strip() == "True"
 
         case "2":
-            with open("game_memory/user2_morteza_fishing.txt", "r") as user_two:
+            with open("game_memory.zip/user2_morteza_fishing.txt", "r") as user_two:
                 line = user_two.read().splitlines()
 
                 sal = float(line[0])
@@ -264,7 +264,7 @@ def load(x):
                 equicheck = line[66].strip() == "True"
 
         case "3":
-            with open("game_memory/user3_morteza_fishing.txt", "r") as user_three:
+            with open("game_memory.zip/user3_morteza_fishing.txt", "r") as user_three:
                 line = user_three.read().splitlines()
 
                 sal = float(line[0])
